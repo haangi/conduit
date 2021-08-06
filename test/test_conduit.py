@@ -21,7 +21,7 @@ class TestConduit(object):
     def teardown(self):
         self.browser.quit()
 
-    # # Test1
+    # # Test1: Conduit weboldal betöltődik-e?
     def test_home_page_appearance(self):
         webpage = self.browser.title
         assert webpage == "Conduit"
