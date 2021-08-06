@@ -36,29 +36,13 @@ class TestConduitCookies(object):
         password.send_keys(pw)
         sign_in_button = self.browser.find_element_by_xpath('//button[@class="btn btn-lg btn-primary pull-xs-right"]')
         sign_in_button.click()
-        # browser.switch_to.parent_frame()
-        # WebDriverWait(browser, 5).until(alert_is_present())
-        # popup = browser.switch_to.alert
-        # message = popup.text
-        # print(popup)
 
-        time.sleep(2)
+
+        success_login_ready = WebDriverWait(self.browser, 2).until(
+            EC.presence_of_element_located((By.XPATH, ('//a[@class="nav-link"]')[2])))
+
 
         success_login = self.browser.find_elements_by_xpath('//a[@class="nav-link"]')[2]
         assert success_login.text == uniq_name
-        print(success_login.text)
 
-        success_login_popup = self.browser.find_element_by_xpath('//div[@class="swal-text"]')
-        # success_login_popup.click()
-        popup = self.browser.switch_to.alert
-
-
-
-        time.sleep(2)
-        # browser.switch_to.parent_frame()
-        # browser.switch_to.frame(success_login)
-        # browser.switch_to.frame(success_login_popup)
-        # time.sleep(2)
-        assert success_login_popup.text == "Logging you in... Please wait..."
-        print(success_login_popup.text)
 
