@@ -1,0 +1,77 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "test",
+    "children" : [ {
+      "name" : "test_conduit",
+      "children" : [ {
+        "name" : "test_home_page_appearance",
+        "uid" : "65c84be944dd0ab",
+        "parentUid" : "81ae0d23950340ec5f63efa4e29dced0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628881550771,
+          "stop" : 1628881550771,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "81ae0d23950340ec5f63efa4e29dced0"
+    }, {
+      "name" : "test_cookies",
+      "children" : [ {
+        "name" : "test_cookies",
+        "uid" : "f4b3e227ac76e599",
+        "parentUid" : "7b183c7460ee6f5bf1b5a6196e1e3182",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628881554723,
+          "stop" : 1628881554786,
+          "duration" : 63
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7b183c7460ee6f5bf1b5a6196e1e3182"
+    }, {
+      "name" : "test_login",
+      "children" : [ {
+        "name" : "test_login",
+        "uid" : "941bf8c3725faa9",
+        "parentUid" : "2678071a6c1eb5c7c1ebfa701c680a59",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628881556654,
+          "stop" : 1628881557023,
+          "duration" : 369
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2678071a6c1eb5c7c1ebfa701c680a59"
+    }, {
+      "name" : "test_regisztracio",
+      "children" : [ {
+        "name" : "test_registration",
+        "uid" : "64024a3f363eb6c2",
+        "parentUid" : "7225bd7ea402f90917b9546b5e294bf4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628881558744,
+          "stop" : 1628881563170,
+          "duration" : 4426
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7225bd7ea402f90917b9546b5e294bf4"
+    } ],
+    "uid" : "d662795e8d349f9b5595bf62f43ea7ae"
+  } ],
+  "name" : "packages"
+}
