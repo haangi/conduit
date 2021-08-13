@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 
-## --------------------------------------------------------------------------------##
+## -----------------------------------------------------------------------------------##
 URL = "http://localhost:1667"
 
 articles_fields_list = ['//input[@class="form-control form-control-lg"]', '//input[@class="form-control"]',
@@ -12,7 +12,7 @@ articles_fields_list = ['//input[@class="form-control form-control-lg"]', '//inp
 text_for_modification = "Pepi vagyok. 36 éves és nagyon szeretek kirándulni."
 new_text_for_modification = "Sokszor túrázom a hegyekben."
 
-## -------------------------------------------------------------------------------##
+## -----------------------------------------------------------------------------------##
 def driver_wait(browser,path):
     return WebDriverWait(browser, 5).until(EC.visibility_of_any_elements_located((By.XPATH, path)))
 
