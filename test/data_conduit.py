@@ -19,6 +19,7 @@ def driver_wait(browser,path):
 def casual_registration(browser):
     sign_up = browser.find_element_by_xpath('//a[@href="#/register"]')
     sign_up.click()
+    time.sleep(1)
     username = browser.find_element_by_xpath('//input[@placeholder="Username"]')
     email = browser.find_element_by_xpath('//input[@placeholder="Email"]')
     password = browser.find_element_by_xpath('//input[@placeholder="Password"]')
