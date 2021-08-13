@@ -15,13 +15,13 @@ class TestConduitLogin(object):
         self.browser.quit()
 
     def test_login(self):
-        casual_registration()
+        # casual_registration()
         sign_in = self.browser.find_element_by_xpath('//a[@href="#/login"]').click()
         email = self.browser.find_element_by_xpath('//input[@placeholder="Email"]')
         password = self.browser.find_element_by_xpath('//input[@placeholder="Password"]')
         uniq_name = "Angela1"      # regisztrációnál egyedi felhasználónevet hoz létre (github futás miatt kiszedve)
         email.send_keys(uniq_name + "@hotmail.com")
-        pw = "Pepi1234!$$"
+        pw = "Pepi1234!$"
         password.send_keys(pw)
         sign_in_button = self.browser.find_element_by_xpath('//button[@class="btn btn-lg btn-primary pull-xs-right"]').click()
         time.sleep(1)
