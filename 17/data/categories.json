@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert ' Settings' == 'Angela2'\n  - Angela2\n  +  Settings",
+      "children" : [ {
+        "name" : "test_login",
+        "uid" : "18043e2477e42ec1",
+        "parentUid" : "61142fcc00f7d79161b8b41e0ca390c1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1628888654444,
+          "stop" : 1628888657588,
+          "duration" : 3144
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "61142fcc00f7d79161b8b41e0ca390c1"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
