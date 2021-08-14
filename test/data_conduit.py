@@ -12,7 +12,7 @@ articles_fields_list = ['//input[@class="form-control form-control-lg"]', '//inp
 text_for_modification = "Pepi vagyok. 36 éves és nagyon szeretek kirándulni."
 new_text_for_modification = "Sokszor túrázom a hegyekben."
 
-uniq_name = "Angelaa"            # regisztrációnál egyedi felhasználónevet hoz létre (github futás miatt kiszedve)
+uniq_name = "Angelaaa"            # regisztrációnál egyedi felhasználónevet hoz létre (github futás miatt kiszedve)
 pw = "Pepi1234!$"
 
 ## -----------------------------------------------------------------------------------##
