@@ -17,7 +17,7 @@ class TestConduitCreateBio(object):
 
     def test_createbio(self):
         casual_login(self.browser)
-        time.sleep(2)
+        time.sleep(4)
 
         settings = self.browser.find_elements_by_xpath('//a[@class="nav-link"]')[1].click()
         driver_wait(self.browser,'//textarea[@class="form-control form-control-lg"]')
