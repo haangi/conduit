@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert ['Lorem ipsum...more...', ...] == ['Lorem ipsum...Read more...']\n  Left contains 13 more items, first extra item: 'Egestas egestas\\nfringilla phasellus faucibus scelerisque\\nloremipsumdolor\\nRead more...'\n  Use -v to get the full diff",
+      "children" : [ {
+        "name" : "test_list_favorited_articles",
+        "uid" : "87067145b6560e2d",
+        "parentUid" : "315e78c7ab91187eca10d72d61cbe0d7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1628982597603,
+          "stop" : 1628982603536,
+          "duration" : 5933
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "315e78c7ab91187eca10d72d61cbe0d7"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
