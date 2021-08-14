@@ -38,5 +38,5 @@ class TestConduitModifyBio(object):
 
         biography_field = self.browser.find_element_by_xpath('//textarea[@class="form-control form-control-lg"]').get_attribute("value")
         assert biography_field == new_bio
-
+        time.sleep(1)
         casual_logout(self.browser)
