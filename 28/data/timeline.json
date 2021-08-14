@@ -1,0 +1,78 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az83-93",
+    "children" : [ {
+      "name" : "3724-MainThread",
+      "children" : [ {
+        "name" : "test_home_page_appearance",
+        "uid" : "c15e675d9a87b4fb",
+        "parentUid" : "e81047c44491ab73a3913e2dfe471dc2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628964741830,
+          "stop" : 1628964741834,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login",
+        "uid" : "272fc80fa0ab43bb",
+        "parentUid" : "e81047c44491ab73a3913e2dfe471dc2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628964746345,
+          "stop" : 1628964748840,
+          "duration" : 2495
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_registration",
+        "uid" : "14af398fed312007",
+        "parentUid" : "e81047c44491ab73a3913e2dfe471dc2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628964750615,
+          "stop" : 1628964755021,
+          "duration" : 4406
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_acceptcookie",
+        "uid" : "f89e035d7d85a8cb",
+        "parentUid" : "e81047c44491ab73a3913e2dfe471dc2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628964740103,
+          "stop" : 1628964741185,
+          "duration" : 1082
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_declinecookie",
+        "uid" : "cd7f010508122f23",
+        "parentUid" : "e81047c44491ab73a3913e2dfe471dc2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628964743602,
+          "stop" : 1628964744655,
+          "duration" : 1053
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e81047c44491ab73a3913e2dfe471dc2"
+    } ],
+    "uid" : "9c1e99805a17c5d80fd1672778bbb324"
+  } ],
+  "name" : "timeline"
+}
