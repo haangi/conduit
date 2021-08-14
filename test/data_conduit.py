@@ -31,6 +31,10 @@ def casual_registration(browser):
     password.send_keys(pw)
     sign_up_button = browser.find_element_by_xpath('//button[@class="btn btn-lg btn-primary pull-xs-right"]')
     sign_up_button.click()
+    time.sleep(2)
+    browser.find_element_by_xpath('//button[@class="swal-button swal-button--confirm"]').click()
+
+
 
 def casual_login(browser):
     sign_in = browser.find_element_by_xpath('//a[@href="#/login"]')

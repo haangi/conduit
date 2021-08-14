@@ -29,7 +29,7 @@ class TestConduitLogin(object):
         password.send_keys(pw)
         sign_in_button = self.browser.find_element_by_xpath('//button[@class="btn btn-lg btn-primary pull-xs-right"]').click()
         time.sleep(1)
-        success_login = self.browser.find_element_by_xpath('//a[@class="nav-link"]')[2]
+        success_login = self.browser.find_elements_by_xpath('//a[@class="nav-link"]')[2]
         assert success_login.text == uniq_name
         casual_logout(self.browser)
 
