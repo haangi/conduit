@@ -1,3 +1,5 @@
+import time
+
 from selenium import webdriver
 from data_conduit import *
 from selenium.webdriver.chrome.options import Options
@@ -16,6 +18,8 @@ class TestConduitLogin(object):
 
     def test_login(self):
         casual_registration(self.browser)
+        time.sleep(1)
+        casual_logout(self.browser)
         driver_wait(self.browser, '//a[@href="#/login"]')
         sign_in = self.browser.find_element_by_xpath('//a[@href="#/login"]').click()
         driver_wait(self.browser, '//input[@placeholder="Email"]')
