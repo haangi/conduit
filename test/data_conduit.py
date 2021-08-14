@@ -12,7 +12,7 @@ articles_fields_list = ['//input[@class="form-control form-control-lg"]', '//inp
 text_for_modification = "Pepi vagyok. 36 éves és nagyon szeretek kirándulni."
 new_text_for_modification = "Sokszor túrázom a hegyekben."
 
-uniq_name = "Angelaaa"            # regisztrációnál egyedi felhasználónevet hoz létre (github futás miatt kiszedve)
+uniq_name = "Angelaaa1"            # regisztrációnál egyedi felhasználónevet hoz létre (github futás miatt kiszedve)
 pw = "Pepi1234!$"
 
 ## -----------------------------------------------------------------------------------##
@@ -31,7 +31,7 @@ def casual_registration(browser):
     password.send_keys(pw)
     sign_up_button = browser.find_element_by_xpath('//button[@class="btn btn-lg btn-primary pull-xs-right"]')
     sign_up_button.click()
-    time.sleep(2)
+    time.sleep(3)
     browser.find_element_by_xpath('//button[@class="swal-button swal-button--confirm"]').click()
 
 
