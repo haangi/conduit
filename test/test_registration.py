@@ -32,7 +32,7 @@ class TestConduitRegistration(object):
         password.send_keys(pw)
 
         sign_up_button = self.browser.find_element_by_xpath('//button[@class="btn btn-lg btn-primary pull-xs-right"]').click()
-        time.sleep(1)
+        time.sleep(4)
         success = self.browser.find_element_by_xpath('//*[@class="swal-text"]')
         assert success.text == "Your registration was successful!"
 
