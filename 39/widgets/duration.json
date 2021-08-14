@@ -1,0 +1,101 @@
+[ {
+  "uid" : "f450c8a73dd527d7",
+  "name" : "test_login",
+  "time" : {
+    "start" : 1628978859572,
+    "stop" : 1628978866610,
+    "duration" : 7038
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eb81ecf21f520708",
+  "name" : "test_declinecookie",
+  "time" : {
+    "start" : 1628978874213,
+    "stop" : 1628978875269,
+    "duration" : 1056
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "55e3129a837e6da3",
+  "name" : "test_pagination",
+  "time" : {
+    "start" : 1628978876001,
+    "stop" : 1628978876997,
+    "duration" : 996
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5ec683c238ce3397",
+  "name" : "test_add_articles_csv",
+  "time" : {
+    "start" : 1628978869376,
+    "stop" : 1628978870778,
+    "duration" : 1402
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "dacd39f2d9b7bf78",
+  "name" : "test_acceptcookie",
+  "time" : {
+    "start" : 1628978867357,
+    "stop" : 1628978868406,
+    "duration" : 1049
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d573704daf94a26",
+  "name" : "test_logout",
+  "time" : {
+    "start" : 1628978878609,
+    "stop" : 1628978879961,
+    "duration" : 1352
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fa95b70d49dc583d",
+  "name" : "test_registration",
+  "time" : {
+    "start" : 1628978889983,
+    "stop" : 1628978894348,
+    "duration" : 4365
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "41d5b406f849e133",
+  "name" : "test_home_page_appearance",
+  "time" : {
+    "start" : 1628978872578,
+    "stop" : 1628978872583,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "732d089bf603be00",
+  "name" : "test_modifybio",
+  "time" : {
+    "start" : 1628978881713,
+    "stop" : 1628978889232,
+    "duration" : 7519
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bc7b0ef46a36b6ca",
+  "name" : "test_createbio",
+  "time" : {
+    "start" : 1628978895086,
+    "stop" : 1628978902055,
+    "duration" : 6969
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
