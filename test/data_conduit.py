@@ -16,18 +16,18 @@ new_text_for_modification = "Sokszor túrázom a hegyekben."
 def driver_wait(browser,path):
     return WebDriverWait(browser, 5).until(EC.visibility_of_any_elements_located((By.XPATH, path)))
 
-def casual_registration(browser):
-    sign_up = browser.find_element_by_xpath('//a[@href="#/register"]')
-    sign_up.click()
-    time.sleep(1)
-    username = browser.find_element_by_xpath('//input[@placeholder="Username"]')
-    email = browser.find_element_by_xpath('//input[@placeholder="Email"]')
-    password = browser.find_element_by_xpath('//input[@placeholder="Password"]')
-    username.send_keys("Angela2")
-    email.send_keys("Angela2@hotmail.com")
-    password.send_keys("Pepi1234!$")
-    sign_up_button = browser.find_element_by_xpath('//button[@class="btn btn-lg btn-primary pull-xs-right"]')
-    sign_up_button.click()
+# def casual_registration(browser):
+#     sign_up = browser.find_element_by_xpath('//a[@href="#/register"]')
+#     sign_up.click()
+#     time.sleep(1)
+#     username = browser.find_element_by_xpath('//input[@placeholder="Username"]')
+#     email = browser.find_element_by_xpath('//input[@placeholder="Email"]')
+#     password = browser.find_element_by_xpath('//input[@placeholder="Password"]')
+#     username.send_keys("Angela1")
+#     email.send_keys("Angela1@hotmail.com")
+#     password.send_keys("Pepi1234!$")
+#     sign_up_button = browser.find_element_by_xpath('//button[@class="btn btn-lg btn-primary pull-xs-right"]')
+#     sign_up_button.click()
 
 def casual_login(browser):
     sign_in = browser.find_element_by_xpath('//a[@href="#/login"]')
