@@ -1,0 +1,78 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az77-942",
+    "children" : [ {
+      "name" : "3717-MainThread",
+      "children" : [ {
+        "name" : "test_acceptcookie",
+        "uid" : "61435a99857048fc",
+        "parentUid" : "982248f74f8d8fc189b1cf24b05ed1b8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628957276900,
+          "stop" : 1628957277990,
+          "duration" : 1090
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_declinecookie",
+        "uid" : "c767bff026f1acdd",
+        "parentUid" : "982248f74f8d8fc189b1cf24b05ed1b8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628957281609,
+          "stop" : 1628957282659,
+          "duration" : 1050
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_home_page_appearance",
+        "uid" : "30a36160164ab143",
+        "parentUid" : "982248f74f8d8fc189b1cf24b05ed1b8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628957279769,
+          "stop" : 1628957279773,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_registration",
+        "uid" : "b7bbbd2f9f0e3090",
+        "parentUid" : "982248f74f8d8fc189b1cf24b05ed1b8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628957286860,
+          "stop" : 1628957291417,
+          "duration" : 4557
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login",
+        "uid" : "5f45cbd304bd1901",
+        "parentUid" : "982248f74f8d8fc189b1cf24b05ed1b8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628957283396,
+          "stop" : 1628957284847,
+          "duration" : 1451
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "982248f74f8d8fc189b1cf24b05ed1b8"
+    } ],
+    "uid" : "3f9663d27bba89408f9d15011c2eca4b"
+  } ],
+  "name" : "timeline"
+}
