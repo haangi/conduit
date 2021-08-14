@@ -21,6 +21,7 @@ class TestConduitListFavoritedArticles(object):
 
         for like in range(3):
             like_button = self.browser.find_elements_by_xpath('//i[@class="ion-heart"]')[like].click()
+        driver_wait(self.browser,'//a[@class="preview-link"]')
 
         global_feed_list = []
         global_feed_articles = self.browser.find_elements_by_xpath('//a[@class="preview-link"]')
