@@ -16,7 +16,9 @@ class TestConduitLogin(object):
 
     def test_login(self):
         casual_registration(self.browser)
+        driver_wait(self.browser, '//a[@href="#/login"]')
         sign_in = self.browser.find_element_by_xpath('//a[@href="#/login"]').click()
+        driver_wait(self.browser, '//input[@placeholder="Email"]')
         email = self.browser.find_element_by_xpath('//input[@placeholder="Email"]')
         password = self.browser.find_element_by_xpath('//input[@placeholder="Password"]')
         email.send_keys(uniq_name + "@hotmail.com")
