@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a active-class=\"active\" class=\"nav-link\">...</a> is not clickable at point (704, 18). Other element would receive the click: <div class=\"swal-overlay swal-overlay--show-modal\" tabindex=\"-1\">...</div>\n  (Session info: headless chrome=92.0.4515.131)",
+      "children" : [ {
+        "name" : "test_modifybio",
+        "uid" : "4d181ded042c41dd",
+        "parentUid" : "8960b3e5aa2e54da5a36f895bc6e23fa",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628976669909,
+          "stop" : 1628976677303,
+          "duration" : 7394
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8960b3e5aa2e54da5a36f895bc6e23fa"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
