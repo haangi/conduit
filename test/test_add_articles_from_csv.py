@@ -23,7 +23,7 @@ class TestConduitAddArticlesCsv(object):
         new_article_button = self.browser.find_elements_by_xpath('//a[@class="nav-link"]')[0].click()
         driver_wait(self.browser,'//input[@class="form-control form-control-lg"]')
 
-        with open('articles.csv', 'r', encoding="utf-8") as art_file:
+        with open('test/articles.csv', 'r', encoding="utf-8") as art_file:
             art_table_reader = csv.reader(art_file, delimiter=';')
             new_articles_list = []
             for row in art_table_reader:
