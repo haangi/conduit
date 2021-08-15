@@ -1,0 +1,78 @@
+{
+  "uid" : "83ddc74becfb39aa",
+  "name" : "test_add_articles_csv",
+  "fullName" : "test.test_add_articles_from_csv.TestConduitAddArticlesCsv#test_add_articles_csv",
+  "historyId" : "31654018dea6aadb80c024913fbd2097",
+  "time" : {
+    "start" : 1628992692015,
+    "stop" : 1628992708332,
+    "duration" : 16317
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7e47fff03df34ba0",
+      "name" : "log",
+      "source" : "7e47fff03df34ba0.txt",
+      "type" : "text/plain",
+      "size" : 344
+    }, {
+      "uid" : "c1b686dd277b0e97",
+      "name" : "stderr",
+      "source" : "c1b686dd277b0e97.txt",
+      "type" : "text/plain",
+      "size" : 215
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test"
+  }, {
+    "name" : "suite",
+    "value" : "test_add_articles_from_csv"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestConduitAddArticlesCsv"
+  }, {
+    "name" : "host",
+    "value" : "fv-az83-93"
+  }, {
+    "name" : "thread",
+    "value" : "3749-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test.test_add_articles_from_csv"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "83ddc74becfb39aa.json",
+  "parameterValues" : [ ]
+}
