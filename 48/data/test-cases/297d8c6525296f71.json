@@ -1,0 +1,78 @@
+{
+  "uid" : "297d8c6525296f71",
+  "name" : "test_list_favorited_articles",
+  "fullName" : "test.test_2_list_favorited_articles.TestConduitListFavoritedArticles#test_list_favorited_articles",
+  "historyId" : "5ae3c579f739496e5e10537fa7f5e385",
+  "time" : {
+    "start" : 1628991055892,
+    "stop" : 1628991063701,
+    "duration" : 7809
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ed0b32c994596362",
+      "name" : "log",
+      "source" : "ed0b32c994596362.txt",
+      "type" : "text/plain",
+      "size" : 344
+    }, {
+      "uid" : "4f78c7aa3e89dc30",
+      "name" : "stderr",
+      "source" : "4f78c7aa3e89dc30.txt",
+      "type" : "text/plain",
+      "size" : 215
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test"
+  }, {
+    "name" : "suite",
+    "value" : "test_2_list_favorited_articles"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestConduitListFavoritedArticles"
+  }, {
+    "name" : "host",
+    "value" : "fv-az36-878"
+  }, {
+    "name" : "thread",
+    "value" : "3794-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test.test_2_list_favorited_articles"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "297d8c6525296f71.json",
+  "parameterValues" : [ ]
+}
