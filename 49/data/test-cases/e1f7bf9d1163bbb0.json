@@ -1,0 +1,78 @@
+{
+  "uid" : "e1f7bf9d1163bbb0",
+  "name" : "test_pagination",
+  "fullName" : "test.test_list_pagination.TestConduitListPagination#test_pagination",
+  "historyId" : "6aa45b4b3543b9eead74f384246ef346",
+  "time" : {
+    "start" : 1628991202029,
+    "stop" : 1628991203550,
+    "duration" : 1521
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "be608b7a3a035001",
+      "name" : "log",
+      "source" : "be608b7a3a035001.txt",
+      "type" : "text/plain",
+      "size" : 344
+    }, {
+      "uid" : "c5ae720707b32061",
+      "name" : "stderr",
+      "source" : "c5ae720707b32061.txt",
+      "type" : "text/plain",
+      "size" : 215
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test"
+  }, {
+    "name" : "suite",
+    "value" : "test_list_pagination"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestConduitListPagination"
+  }, {
+    "name" : "host",
+    "value" : "fv-az74-944"
+  }, {
+    "name" : "thread",
+    "value" : "3720-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test.test_list_pagination"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e1f7bf9d1163bbb0.json",
+  "parameterValues" : [ ]
+}
