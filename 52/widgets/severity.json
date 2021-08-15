@@ -1,0 +1,131 @@
+[ {
+  "uid" : "2b9a5850a1f5ad57",
+  "name" : "test_titles_to_file",
+  "time" : {
+    "start" : 1628991838592,
+    "stop" : 1628991839826,
+    "duration" : 1234
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2a03b8fe88c3cb2c",
+  "name" : "test_pagination",
+  "time" : {
+    "start" : 1628991818857,
+    "stop" : 1628991819912,
+    "duration" : 1055
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f97cbf10853e0aff",
+  "name" : "test_createbio",
+  "time" : {
+    "start" : 1628991802897,
+    "stop" : 1628991810525,
+    "duration" : 7628
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1f5a5e36c22a470f",
+  "name" : "test_add_articles_csv",
+  "time" : {
+    "start" : 1628991784127,
+    "stop" : 1628991800482,
+    "duration" : 16355
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "77c998268f2c600",
+  "name" : "test_registration",
+  "time" : {
+    "start" : 1628991832475,
+    "stop" : 1628991836907,
+    "duration" : 4432
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bd2eed38aafc61a7",
+  "name" : "test_delete_article",
+  "time" : {
+    "start" : 1628991813065,
+    "stop" : 1628991818157,
+    "duration" : 5092
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2d20a66a31c96558",
+  "name" : "test_modifybio",
+  "time" : {
+    "start" : 1628991822724,
+    "stop" : 1628991830776,
+    "duration" : 8052
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "969db8d63136493",
+  "name" : "test_acceptcookie",
+  "time" : {
+    "start" : 1628991781261,
+    "stop" : 1628991782312,
+    "duration" : 1051
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b56bd22bbacd5b63",
+  "name" : "test_logout",
+  "time" : {
+    "start" : 1628991820586,
+    "stop" : 1628991821936,
+    "duration" : 1350
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bda7d4467a807f17",
+  "name" : "test_list_favorited_articles",
+  "time" : {
+    "start" : 1628991771689,
+    "stop" : 1628991779565,
+    "duration" : 7876
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "82c86be5d67c1d92",
+  "name" : "test_declinecookie",
+  "time" : {
+    "start" : 1628991811212,
+    "stop" : 1628991812264,
+    "duration" : 1052
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bc7cbd2bb42148fd",
+  "name" : "test_home_page_appearance",
+  "time" : {
+    "start" : 1628991802199,
+    "stop" : 1628991802204,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c7c3d0e5cad67111",
+  "name" : "test_login",
+  "time" : {
+    "start" : 1628991762764,
+    "stop" : 1628991769954,
+    "duration" : 7190
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
