@@ -32,7 +32,7 @@ class TestConduitListFavoritedArticles(object):
 
         user_page = self.browser.find_elements_by_xpath('//a[@class="nav-link"]')[2].click()
         time.sleep(2)
-        favorited_articles = self.browser.find_element_by_xpath('//a[@class="nav-link router-link-exact-active active"]').click()
+        favorited_articles = self.browser.find_elements_by_xpath('//a[@class="nav-link"]')[4].click()
 
         time.sleep(2)
 
