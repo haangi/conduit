@@ -1,0 +1,78 @@
+{
+  "uid" : "e1470bbf1eee86",
+  "name" : "test_declinecookie",
+  "fullName" : "test.test_decline_cookie.TestConduitCookieDecline#test_declinecookie",
+  "historyId" : "7d5f52d32c9666582bc2f95b8fb6550f",
+  "time" : {
+    "start" : 1629319278000,
+    "stop" : 1629319279049,
+    "duration" : 1049
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7d93a8e3a926c4c8",
+      "name" : "log",
+      "source" : "7d93a8e3a926c4c8.txt",
+      "type" : "text/plain",
+      "size" : 344
+    }, {
+      "uid" : "4ae4b0cb97a0659a",
+      "name" : "stderr",
+      "source" : "4ae4b0cb97a0659a.txt",
+      "type" : "text/plain",
+      "size" : 215
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test"
+  }, {
+    "name" : "suite",
+    "value" : "test_decline_cookie"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestConduitCookieDecline"
+  }, {
+    "name" : "host",
+    "value" : "fv-az74-944"
+  }, {
+    "name" : "thread",
+    "value" : "3849-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test.test_decline_cookie"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e1470bbf1eee86.json",
+  "parameterValues" : [ ]
+}
