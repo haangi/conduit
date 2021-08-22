@@ -1,0 +1,78 @@
+{
+  "uid" : "fb61b4fdabbb2964",
+  "name" : "test_createbio",
+  "fullName" : "test.test_create_bio.TestConduitCreateBio#test_createbio",
+  "historyId" : "a1c5edc598c25a2717e8ebd9ec24b3fd",
+  "time" : {
+    "start" : 1629660445094,
+    "stop" : 1629660452574,
+    "duration" : 7480
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5121b36feb9ffa71",
+      "name" : "log",
+      "source" : "5121b36feb9ffa71.txt",
+      "type" : "text/plain",
+      "size" : 344
+    }, {
+      "uid" : "d4e02010ba8e7937",
+      "name" : "stderr",
+      "source" : "d4e02010ba8e7937.txt",
+      "type" : "text/plain",
+      "size" : 215
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test"
+  }, {
+    "name" : "suite",
+    "value" : "test_create_bio"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestConduitCreateBio"
+  }, {
+    "name" : "host",
+    "value" : "fv-az36-757"
+  }, {
+    "name" : "thread",
+    "value" : "3781-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test.test_create_bio"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fb61b4fdabbb2964.json",
+  "parameterValues" : [ ]
+}
